@@ -45,6 +45,10 @@
 			<Item Name="Data.ctl" Type="VI" URL="../controls/Data.ctl"/>
 			<Item Name="State.ctl" Type="VI" URL="../controls/State.ctl"/>
 			<Item Name="LH Data.ctl" Type="VI" URL="../controls/LH Data.ctl"/>
+			<Item Name="Calibration State.ctl" Type="VI" URL="../controls/Calibration State.ctl"/>
+		</Item>
+		<Item Name="Sub VIs" Type="Folder">
+			<Item Name="Pump Calibration (sub vi).vi" Type="VI" URL="../sub vis/Pump Calibration (sub vi).vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -80,6 +84,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Gilson GSIOC bufferd.vi" Type="VI" URL="/&lt;instrlib&gt;/GILSON/GGSIOC.llb/Gilson GSIOC bufferd.vi"/>
@@ -89,6 +94,7 @@
 			</Item>
 			<Item Name="Vici - multiposition (1).vi" Type="VI" URL="../Equipment/215.Operations (SubVI)/Vici - multiposition (1).vi"/>
 			<Item Name="Vici - (2 position).vi" Type="VI" URL="../Equipment/215.Operations (SubVI)/Vici - (2 position).vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
