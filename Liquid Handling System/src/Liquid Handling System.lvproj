@@ -20,6 +20,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Equipment" Type="Folder">
+			<Item Name="215.Operations (SubVI)" Type="Folder" URL="../Equipment/215.Operations (SubVI)">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Item Name="Documentation Images" Type="Folder">
 				<Item Name="loc_open_data_typedef.png" Type="Document" URL="../documentation/loc_open_data_typedef.png"/>
@@ -76,6 +81,14 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 			</Item>
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Gilson GSIOC bufferd.vi" Type="VI" URL="/&lt;instrlib&gt;/GILSON/GGSIOC.llb/Gilson GSIOC bufferd.vi"/>
+				<Item Name="Gilson GSIOC immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/GILSON/GGSIOC.llb/Gilson GSIOC immediate.vi"/>
+				<Item Name="Gilson GSIOC bufferd.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC bufferd.vi"/>
+				<Item Name="Gilson GSIOC immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC immediate.vi"/>
+			</Item>
+			<Item Name="Vici - multiposition (1).vi" Type="VI" URL="../Equipment/215.Operations (SubVI)/Vici - multiposition (1).vi"/>
+			<Item Name="Vici - (2 position).vi" Type="VI" URL="../Equipment/215.Operations (SubVI)/Vici - (2 position).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
