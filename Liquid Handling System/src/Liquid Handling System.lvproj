@@ -85,16 +85,27 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Gilson GSIOC bufferd.vi" Type="VI" URL="/&lt;instrlib&gt;/GILSON/GGSIOC.llb/Gilson GSIOC bufferd.vi"/>
 				<Item Name="Gilson GSIOC immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/GILSON/GGSIOC.llb/Gilson GSIOC immediate.vi"/>
 				<Item Name="Gilson GSIOC bufferd.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC bufferd.vi"/>
 				<Item Name="Gilson GSIOC immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC immediate.vi"/>
+				<Item Name="Eurotherm 32xx Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Eurotherm 32xx Series/Eurotherm 32xx Series.lvlib"/>
 			</Item>
 			<Item Name="Vici - multiposition (1).vi" Type="VI" URL="../Equipment/215.Operations (SubVI)/Vici - multiposition (1).vi"/>
 			<Item Name="Vici - (2 position).vi" Type="VI" URL="../Equipment/215.Operations (SubVI)/Vici - (2 position).vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Eurotherm Config.vi" Type="VI" URL="../../../../LabView-Platform-Development/Code/QMH Leeds Control 2017/support/Equipment Drivers/Eurotherm/Eurotherm Config.vi"/>
+			<Item Name="Eurotherm Operation.vi" Type="VI" URL="../../../../LabView-Platform-Development/Code/QMH Leeds Control 2017/support/Equipment Drivers/Eurotherm/Eurotherm Operation.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
