@@ -46,6 +46,7 @@
 			<Item Name="State.ctl" Type="VI" URL="../controls/State.ctl"/>
 			<Item Name="LH Data.ctl" Type="VI" URL="../controls/LH Data.ctl"/>
 			<Item Name="Calibration State.ctl" Type="VI" URL="../controls/Calibration State.ctl"/>
+			<Item Name="Pump Data.ctl" Type="VI" URL="../controls/Pump Data.ctl"/>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Pump Calibration (sub vi).vi" Type="VI" URL="../sub vis/Pump Calibration (sub vi).vi"/>
@@ -105,6 +106,10 @@
 				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
 				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Gilson GSIOC bufferd.vi" Type="VI" URL="/&lt;instrlib&gt;/GILSON/GGSIOC.llb/Gilson GSIOC bufferd.vi"/>
@@ -112,6 +117,9 @@
 				<Item Name="Gilson GSIOC bufferd.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC bufferd.vi"/>
 				<Item Name="Gilson GSIOC immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC immediate.vi"/>
 				<Item Name="Eurotherm 32xx Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Eurotherm 32xx Series/Eurotherm 32xx Series.lvlib"/>
+				<Item Name="rheodyne.lvlib" Type="Library" URL="/&lt;instrlib&gt;/rheodyne/rheodyne.lvlib"/>
+				<Item Name="Gilson GSIOC connect.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC connect.vi"/>
+				<Item Name="Gislon GSIOC init.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gislon GSIOC init.vi"/>
 			</Item>
 			<Item Name="Vici - multiposition (1).vi" Type="VI" URL="../Equipment/215.Operations (SubVI)/Vici - multiposition (1).vi"/>
 			<Item Name="Vici - (2 position).vi" Type="VI" URL="../Equipment/215.Operations (SubVI)/Vici - (2 position).vi"/>
