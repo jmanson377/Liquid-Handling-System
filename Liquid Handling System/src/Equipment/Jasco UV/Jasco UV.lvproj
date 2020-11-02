@@ -6,7 +6,7 @@
 		<Property Name="CCSymbols" Type="Str">OS,Win;CPU,x86;</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Jasco UV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Jasco UV/Jasco UV.lvlib"/>
+		<Item Name="Jasco UV.lvlib" Type="Library" URL="../Jasco UV.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
