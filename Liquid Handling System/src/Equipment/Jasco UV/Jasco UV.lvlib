@@ -42,4 +42,5 @@
 		<Item Name="Example Monitor.vi" Type="VI" URL="../Public/Example Monitor.vi"/>
 	</Item>
 	<Item Name="Jasco UV Readme.html" Type="Document" URL="/&lt;instrlib&gt;/Jasco UV/Jasco UV Readme.html"/>
+	<Item Name="Monitor (Sub vi).vi" Type="VI" URL="../Public/Monitor (Sub vi).vi"/>
 </Library>

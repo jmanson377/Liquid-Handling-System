@@ -112,20 +112,27 @@
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Gilson GSIOC bufferd.vi" Type="VI" URL="/&lt;instrlib&gt;/GILSON/GGSIOC.llb/Gilson GSIOC bufferd.vi"/>
-				<Item Name="Gilson GSIOC immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/GILSON/GGSIOC.llb/Gilson GSIOC immediate.vi"/>
-				<Item Name="Gilson GSIOC bufferd.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC bufferd.vi"/>
-				<Item Name="Gilson GSIOC immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC immediate.vi"/>
 				<Item Name="Eurotherm 32xx Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Eurotherm 32xx Series/Eurotherm 32xx Series.lvlib"/>
 				<Item Name="rheodyne.lvlib" Type="Library" URL="/&lt;instrlib&gt;/rheodyne/rheodyne.lvlib"/>
 				<Item Name="Gilson GSIOC connect.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC connect.vi"/>
 				<Item Name="Gislon GSIOC init.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gislon GSIOC init.vi"/>
+				<Item Name="Gilson GSIOC bufferd.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC bufferd.vi"/>
+				<Item Name="Gilson GSIOC immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/GGSIOC/GGSIOC.llb/Gilson GSIOC immediate.vi"/>
+				<Item Name="Gilson GSIOC bufferd.vi" Type="VI" URL="/&lt;instrlib&gt;/GILSON/GGSIOC.llb/Gilson GSIOC bufferd.vi"/>
+				<Item Name="Gilson GSIOC immediate.vi" Type="VI" URL="/&lt;instrlib&gt;/GILSON/GGSIOC.llb/Gilson GSIOC immediate.vi"/>
+				<Item Name="Jasco UV.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Jasco UV/Jasco UV.lvlib"/>
+			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+				<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
+				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
 			</Item>
 			<Item Name="Vici - multiposition (1).vi" Type="VI" URL="../Equipment/215.Operations (SubVI)/Vici - multiposition (1).vi"/>
 			<Item Name="Vici - (2 position).vi" Type="VI" URL="../Equipment/215.Operations (SubVI)/Vici - (2 position).vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Eurotherm Config.vi" Type="VI" URL="../../../../LabView-Platform-Development/Code/QMH Leeds Control 2017/support/Equipment Drivers/Eurotherm/Eurotherm Config.vi"/>
 			<Item Name="Eurotherm Operation.vi" Type="VI" URL="../../../../LabView-Platform-Development/Code/QMH Leeds Control 2017/support/Equipment Drivers/Eurotherm/Eurotherm Operation.vi"/>
+			<Item Name="Jasco UV.lvlib" Type="Library" URL="../Equipment/Jasco UV/Jasco UV.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
