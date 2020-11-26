@@ -53,6 +53,7 @@
 			<Item Name="Concentration Calculation.vi" Type="VI" URL="../sub vis/Concentration Calculation.vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Optimisation Algorithm.ctl" Type="VI" URL="../controls/Optimisation Algorithm.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
