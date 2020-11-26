@@ -50,6 +50,7 @@
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Pump Calibration (sub vi).vi" Type="VI" URL="../sub vis/Pump Calibration (sub vi).vi"/>
+			<Item Name="Concentration Calculation.vi" Type="VI" URL="../sub vis/Concentration Calculation.vi"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -110,6 +111,8 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Eurotherm 32xx Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Eurotherm 32xx Series/Eurotherm 32xx Series.lvlib"/>
@@ -133,6 +136,11 @@
 			<Item Name="Eurotherm Config.vi" Type="VI" URL="../../../../LabView-Platform-Development/Code/QMH Leeds Control 2017/support/Equipment Drivers/Eurotherm/Eurotherm Config.vi"/>
 			<Item Name="Eurotherm Operation.vi" Type="VI" URL="../../../../LabView-Platform-Development/Code/QMH Leeds Control 2017/support/Equipment Drivers/Eurotherm/Eurotherm Operation.vi"/>
 			<Item Name="Jasco UV.lvlib" Type="Library" URL="../Equipment/Jasco UV/Jasco UV.lvlib"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../Equipment/Jasco UV/Public/Initialize.vi"/>
+			<Item Name="Reset.vi" Type="VI" URL="../Equipment/Jasco UV/Public/Utility/Reset.vi"/>
+			<Item Name="Default Instrument Setup.vi" Type="VI" URL="../Equipment/Jasco UV/Private/Default Instrument Setup.vi"/>
+			<Item Name="Error Query.vi" Type="VI" URL="../Equipment/Jasco UV/Public/Utility/Error Query.vi"/>
+			<Item Name="Close.vi" Type="VI" URL="../Equipment/Jasco UV/Public/Close.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
